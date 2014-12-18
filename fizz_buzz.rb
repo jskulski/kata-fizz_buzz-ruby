@@ -1,7 +1,7 @@
 class Mapper
 
 	def map(number)
-		1
+		number
 	end
 
 end

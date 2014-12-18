@@ -3,15 +3,25 @@ require_relative 'spec_helper'
 
 describe "Fizz Buzz Mapper" do
 
-  it "can be created" do
-    Mapper.new
-  end
-
-  it "returns 1" do
+  it "1 yields 1" do
     mapper = Mapper.new
     result = mapper.map(1)
     expect(result).to eq(1)
   end
+
+  it "2 yields 2" do 
+    mapper = Mapper.new
+    result = mapper.map(2)
+    expect(result).to eq(2)
+  end
+
+  # it "3 yields fizz" do
+  #   mapper = Mapper.new
+  #   result = mapper.map(3)
+  #   expect(result).to eq("fizz")
+  # end
+
+
 
 end
 
