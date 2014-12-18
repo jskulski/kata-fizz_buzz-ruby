@@ -7,6 +7,12 @@ describe "Fizz Buzz Mapper" do
     Mapper.new
   end
 
+  it "returns 1" do
+    mapper = Mapper.new
+    result = mapper.map(1)
+    expect(result).to eq(1)
+  end
+
 end
 
 
