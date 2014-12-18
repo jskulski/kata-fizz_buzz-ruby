@@ -1,18 +1,10 @@
 require 'rspec-given'
 require_relative 'spec_helper'
 
-describe "Fizz Buzz Generator" do
+describe "Fizz Buzz Mapper" do
 
-  context "generator output is" do
-
-    Given(:generator) { Generator.new() }
-    Given(:output) { generator.convert(input) }
-
-    context "input is 3" do
-      Given(:input) { 3 }
-      Then { output == 'fizz' }
-    end
-
+  it "can be created" do
+    Mapper.new
   end
 
 end
