@@ -15,13 +15,11 @@ describe "Fizz Buzz Mapper" do
     expect(result).to eq(2)
   end
 
-  # it "3 yields fizz" do
-  #   mapper = Mapper.new
-  #   result = mapper.map(3)
-  #   expect(result).to eq("fizz")
-  # end
-
-
+  it "3 yields fizz" do
+    mapper = Mapper.new
+    result = mapper.map(3)
+    expect(result).to eq("fizz")
+  end
 
 end
 
