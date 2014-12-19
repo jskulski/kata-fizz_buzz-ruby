@@ -27,6 +27,12 @@ describe "Fizz Buzz Mapper" do
     expect(result).to eq("buzz")
   end
 
+  it "6 yields fizz" do
+    mapper = Mapper.new
+    result = mapper.map(6)
+    expect(result).to eq("fizz")
+  end
+
 end
 
 
