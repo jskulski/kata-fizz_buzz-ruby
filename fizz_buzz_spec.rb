@@ -27,6 +27,11 @@ describe "Fizz Buzz Mapper" do
       expect(result).to eq("buzz")
     end
 
+    it "multiples of five and three yield fizzbuzz" do
+      result = mapper.map(15)
+      expect(result).to eq("fizzbuzz")
+    end
+
   end
 
 end
